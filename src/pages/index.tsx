@@ -1,3 +1,4 @@
+/* eslint-disable react/no-unescaped-entities */
 import Image from "next/image";
 import Link from "next/link";
 import React, {useState} from "react";
@@ -19,6 +20,7 @@ export default function Home() {
         setMessage(`Data Fetched: ${data.title}`);
       }, 2000);
     } catch (error) {
+      console.log("API Error:", error)
       setLoading(false);
       setMessage("Failed to fetch data.");
     }
