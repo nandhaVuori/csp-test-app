@@ -37,7 +37,7 @@ export default function Home() {
         <Image
           src="https://www.netlify.com/v3/img/components/netlify-light.svg"
           alt="Netlify Logo"
-          width={140}  // Adjust to balance with Next.js logo
+          width={140} 
           height={40}
         />
       </div>
