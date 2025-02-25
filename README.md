@@ -7,4 +7,4 @@ It includes various CSP-related tests such as:
 - Handling of inline and external styles, fonts, and images  
 
 ## Live Demo
-**[View the deployed app on Netlify](https://.netlify.app/)**
+**[View the deployed app on Netlify](https://nandha-hkr.netlify.app/)**
